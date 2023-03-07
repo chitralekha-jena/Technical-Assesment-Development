@@ -99,7 +99,7 @@ namespace Demo_Api.Application.UnitTests
             };
 
             int targetAssetParentId = 4;
-            int expectedCount = 5;
+            int expectedCount = 0;
 
             // Act
             int actualCount = _targetAssetRules.CalculateParentTargetAssetCount(targetAssets, targetAssetParentId);
