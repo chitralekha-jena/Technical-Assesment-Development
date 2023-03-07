@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7F1AB724
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1781613-3C14-4D23-9725-96916653E537}"
 	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		.gitignore = .gitignore
-		global.json = global.json
+		..\..\Solution Items\.gitignore = ..\..\Solution Items\.gitignore
+		..\..\Solution Items\global.json = ..\..\Solution Items\global.json
+		..\..\Solution Items\README.md = ..\..\Solution Items\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-API.Domain", "..\Demo-API.Domain\Demo-API.Domain.csproj", "{28A3BDF1-C359-40E6-ABA2-58EB5132EDBD}"
