@@ -13,7 +13,7 @@ namespace Demo_API.Infrastructure.Services
     public class TargetAssetService : ServiceBase, ITargetAssetService
     {
         private readonly ILogger<TargetAssetService> _logger;
-        private static readonly Uri TargetAssetUri = new("https://06ba2c18-ac5b-4e14-988c-94f400643ebf.mock.pstmn.io/targetAsse");
+        private static readonly Uri TargetAssetUri = new("https://06ba2c18-ac5b-4e14-988c-94f400643ebf.mock.pstmn.io/targetAsset");
       
         public TargetAssetService(IHttpClientHandler httpClientHandler, ILogger<TargetAssetService> logger) : base(httpClientHandler)
         {
